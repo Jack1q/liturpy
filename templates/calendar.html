@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <body>
+        
+        <div class="topnav">
+            <a class="logo">liturpy</a>
+            <a href="home">Home</a>
+            <a href="calendar">Calendar</a>
+            <a href="about">About</a>
+        </div>
+
+        <div class="data">
+            <p>Calendar</p>
+            <input form="text" placeholder="year">
+            <br><br>
+            <input form="text" placeholder="month (1-12)"> 
+            <!-- Edit input to get it to work -->
+            <br><br>
+            <button><b>Submit</b></button>
+            
+            <br><br>
+
+            <!-- Make 5 rows, 7 col each -->
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        Monday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Tuesday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Wednesday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Thursday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Friday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Saturday
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        Sunday
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
